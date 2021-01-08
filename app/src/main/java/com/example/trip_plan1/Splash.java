@@ -1,4 +1,4 @@
-package com.example.devruwanrathnayake.trip_plan;
+package com.example.trip_plan1;
 
 import android.content.Intent;
 import android.os.Handler;

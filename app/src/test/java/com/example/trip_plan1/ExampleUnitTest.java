@@ -1,4 +1,4 @@
-package com.example.devruwanrathnayake.trip_plan;
+package com.example.devruwanrathnayake.trip_plan1;
 
 import org.junit.Test;
 

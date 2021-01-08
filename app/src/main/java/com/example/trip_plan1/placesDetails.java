@@ -1,4 +1,4 @@
-package com.example.devruwanrathnayake.trip_plan;
+package com.example.trip_plan1;
 
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -48,6 +48,8 @@ public class placesDetails extends AppCompatActivity {
         arrivaldate = findViewById(R.id.txtarrival);
         depaturedate = findViewById(R.id.txtdepature);
         pvform = new Pvform();
+
+        //view details
         final Button viewdetails = (Button) findViewById(R.id.btnview);
         viewdetails.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -80,6 +82,7 @@ public class placesDetails extends AppCompatActivity {
                 });
             }
         });
+        //update details
         final Button updatedetails = (Button) findViewById(R.id.btnupdate);
         updatedetails.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -112,6 +115,7 @@ public class placesDetails extends AppCompatActivity {
                 });
             }
         });
+        //delete details
         final Button deletedetails = (Button) findViewById(R.id.btndelete);
         deletedetails.setOnClickListener(new View.OnClickListener() {
             @Override

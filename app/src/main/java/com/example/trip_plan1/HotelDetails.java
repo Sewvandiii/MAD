@@ -1,9 +1,7 @@
-package com.example.devruwanrathnayake.trip_plan;
+package com.example.trip_plan1;
 
 import android.os.Bundle;
 import android.support.annotation.NonNull;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.text.TextUtils;
@@ -119,10 +117,12 @@ public class HotelDetails extends AppCompatActivity {
                 });
             }
         });
+        //delete
         final Button deletedetails = (Button) findViewById(R.id.btndelete);
         deletedetails.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                //connect to database
                 DatabaseReference delRef = FirebaseDatabase.getInstance().getReference().child("Hotel");
                 delRef.addListenerForSingleValueEvent(new ValueEventListener() {
                     @Override

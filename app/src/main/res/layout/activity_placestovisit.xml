@@ -50,6 +50,8 @@
         </android.support.design.widget.CollapsingToolbarLayout>
     </android.support.design.widget.AppBarLayout>
 
+    //Go to content_placestovisit
+
     <include layout="@layout/content_placestovisit" />
 
     <android.support.design.widget.FloatingActionButton

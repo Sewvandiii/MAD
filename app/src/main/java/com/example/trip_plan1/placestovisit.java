@@ -1,4 +1,4 @@
-package com.example.devruwanrathnayake.trip_plan;
+package com.example.trip_plan1;
 
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;

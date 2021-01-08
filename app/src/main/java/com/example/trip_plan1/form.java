@@ -1,4 +1,4 @@
-package com.example.devruwanrathnayake.trip_plan;
+package com.example.trip_plan1;
 
 public class form {
         private String customerName;

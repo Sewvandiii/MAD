@@ -1,10 +1,8 @@
-package com.example.devruwanrathnayake.trip_plan;
+package com.example.trip_plan1;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.os.Handler;
 import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -14,8 +12,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
-
-import com.google.firebase.database.DatabaseReference;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -73,9 +69,6 @@ public class MainActivity extends AppCompatActivity
         if (id == R.id.hotel_booking) {
             Intent intent = new Intent(this, HotelsBooking.class);
             startActivity(intent);
-        } else if (id == R.id.Transport) {
-
-        } else if (id == R.id.nav_slideshow) {
 
         } else if (id == R.id.nav_manage) {
             Intent intent = new Intent(this, Places.class);
